@@ -1,0 +1,255 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    scroll-behavior: smooth;   
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; 
+}
+
+body {
+   transition: 0.3s;
+}
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+.img-layer {
+    width: 80%;
+    height: 110%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-size: cover;
+    z-index: 0;
+}
+
+/* .home-content {
+    display: grid;
+    margin-top: 20%;
+    text-align: center;
+    align-content: center;
+}
+
+.site-header {
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    top: 0%;
+    z-index: 2;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.navbar-brand {
+    color: black;
+} */
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 220px;
+}
+
+.carousel-caption h5 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: merienda;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    font-family: poppins;
+}
+
+.carousel-caption a {
+    text-transform: uppercase;
+    background: #262626;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.navbar-nav a {
+    font-family: poppins;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    padding: .2rem 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff !important;
+}
+
+/* .w-100 {
+    height: 100vh;
+} */
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav.ml-auto {
+        background: rgba(0, 0, 0, 0.6);
+    }
+    .navbar-toggler {
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background: #fff;
+    }
+}
+
+.post-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 320px);
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.img-fluid {
+    display: block;
+    object-fit: cover;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    
+    -webkit-box-shadow: -2px 6px 9px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 6px 9px -1px rgba(0,0,0,0.75);
+    box-shadow: -2px 6px 9px -1px rgba(0,0,0,0.75);
+
+}
+
+.content-2 {
+    background-color: burlywood;
+}
+
+.about-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding-bottom: 50px;
+    padding-top: 50px;
+    gap: 100px;
+}
+
+.skills {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.social-image {
+    width: 100%;
+}
+
+.content-3 {
+    background-color: darkcyan;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.mission {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 10px;
+}
+
+#sec-img {
+    margin-left: 20%;
+}
+
+.content-4 {
+    margin: 5%;
+}
+
+.mission-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 10px;
+}
+
+.content-5 {
+    background-color: #000;
+}
+
+.footer {
+    margin-top: 8%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #999;
+    padding: 2%;
+}
+
+.btn-info {
+    transition: transform 200ms ease-in-out;
+    letter-spacing: 2px;
+}
+
+.btn-info:hover {
+    transform: scale(1.1);
+}
+
+.footer a:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .main-container {
+        width: 95%;
+    }
+    
+}
